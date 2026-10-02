@@ -5,6 +5,7 @@ try:
     b = int(input("Enter the second number: "))
 except ValueError:
     print("Please enter valid integers.")
+    exit()
 
 o = input("Enter the symbol of the operation you want to perform (+,-,*,/): ")
 
